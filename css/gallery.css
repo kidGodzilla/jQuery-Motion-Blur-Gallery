@@ -1,0 +1,44 @@
+.motion-blur-gallery {
+    overflow: hidden;
+    position: relative;
+}
+
+.motion-blur-gallery ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background: transparent;
+    cursor: -webkit-grab;
+    white-space: nowrap;
+    -webkit-transform: translateZ(0);
+}
+
+.motion-blur-gallery li {
+    margin: 20px 30px;
+    display: inline-block;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+}
+
+.motion-blur-gallery-pagination {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.motion-blur-gallery-pagination-dot {
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    margin: 0 7px;
+    background-color: rgba(0, 0, 0, 0.2);
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.motion-blur-gallery-pagination-dot.selected {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+.filters-hidden {
+    display: none;
+}
