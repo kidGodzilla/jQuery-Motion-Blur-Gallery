@@ -1,10 +1,6 @@
 # jQuery-Motion-Blur-Gallery
 A jQuery image gallery utilizing an SVG motion-blur transition
 
-# What does it do?
-
-jQuery Motion Blur Gallery is a simple carousel utilizing the motion blur effect.
-
 
 # What is *motion blur?*
 
@@ -55,3 +51,8 @@ Currently, this effect is only supported by *Google Chrome*.
 Plugin based on [this article](http://tympanus.net/codrops/?p=23824) by Lucas Bebber.
 
 Images in this demo courtesy of *Joshua Earle*, [joshuaearlephotography.com](http://www.joshuaearlephotography.com).
+
+
+# Todo
+
+- Touchscreen support
