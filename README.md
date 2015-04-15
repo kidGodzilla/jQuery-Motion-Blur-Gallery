@@ -52,6 +52,6 @@ Currently, this effect is only supported by *Google Chrome*.
 
 # Credits
 
-This plugin was created by James Futhey, based on [this article on Codrops](http://tympanus.net/codrops/?p=23824) by Lucas Bebber.
+This plugin is based on [this article on Codrops](http://tympanus.net/codrops/?p=23824) by Lucas Bebber.
 
 Images in this demo courtesy of *Joshua Earle*, http://www.joshuaearlephotography.com.
