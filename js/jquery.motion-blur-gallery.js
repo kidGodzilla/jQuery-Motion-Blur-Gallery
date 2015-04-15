@@ -158,7 +158,6 @@
 			$self.mousedown(mouseDownFunction);
 			$self.mousemove(mouseMoveFunction);
 			$(window).mouseup(mouseUpFunction);
-			setGalleryPos(0, false);
 
 			var $body = $('body');
 			$(self).addClass("motion-blur-gallery");
@@ -193,6 +192,9 @@
 					});
 				}
 			});
+
+			var initialImageOffset = args.initialImageOffset || 0;
+			setGalleryPos(initialImageOffset, false);
 		}
 
 		init();

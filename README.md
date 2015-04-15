@@ -46,6 +46,20 @@ Currently, this effect is only supported by *Google Chrome*.
         </script>
 
 
+# Advanced Arguments
+
+You can, optionally, pass arguments to the plugin when it is instantiated. For example:
+
+        $(document).ready(function () {
+            $('.motion-blur-gallery').motionBlurGallery({
+                hidePagination: true,
+                initialImageOffset: 1
+            });
+        });
+
+This will instantiate a new motion-blur gallery, without the pagination bullets, centered on the second slide (instead of the first).
+
+
 # Credits
 
 Plugin based on [this article](http://tympanus.net/codrops/?p=23824) by Lucas Bebber.
