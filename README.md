@@ -70,3 +70,4 @@ Images in this demo courtesy of *Joshua Earle*, [joshuaearlephotography.com](htt
 # Todo
 
 - Touchscreen support
+- Additional methods to manipulate gallery
