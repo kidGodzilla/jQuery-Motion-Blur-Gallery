@@ -71,3 +71,4 @@ Images in this demo courtesy of *Joshua Earle*, [joshuaearlephotography.com](htt
 
 - Touchscreen support
 - Additional methods to manipulate gallery
+- Images are slightly off-center
