@@ -74,7 +74,7 @@
 
 		function updateGalleryPos () {
 			TweenMax.set($(".motion-blur-gallery ul"), {
-				x: galleryPos.x + (($(window).width() - imageTotalWidth) / 2),
+				x: galleryPos.x + (($(self).width() - imageTotalWidth) / 2),
 				force3D: true,
 				lazy: true
 			});
