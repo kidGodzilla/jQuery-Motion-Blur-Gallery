@@ -29,15 +29,15 @@ Currently, this effect is only supported by *Google Chrome*.
 
         <div class="motion-blur-gallery">
         	<ul>
-        		<li><img src="img/1.jpg" alt="img01"></li>
-        		<li><img src="img/2.jpg" alt="img02"></li>
-        		<li><img src="img/3.jpg" alt="img03"></li>
-        		<li><img src="img/4.jpg" alt="img04"></li>
-        		<li><img src="img/5.jpg" alt="img05"></li>
-        		<li><img src="img/6.jpg" alt="img06"></li>
-        		<li><img src="img/7.jpg" alt="img07"></li>
-        		<li><img src="img/8.jpg" alt="img08"></li>
-        		<li><img src="img/9.jpg" alt="img09"></li>
+        		<li><img src="img/1.jpg"></li>
+        		<li><img src="img/2.jpg"></li>
+        		<li><img src="img/3.jpg"></li>
+        		<li><img src="img/4.jpg"></li>
+        		<li><img src="img/5.jpg"></li>
+        		<li><img src="img/6.jpg"></li>
+        		<li><img src="img/7.jpg"></li>
+        		<li><img src="img/8.jpg"></li>
+        		<li><img src="img/9.jpg"></li>
         	</ul>
         </div>
 
