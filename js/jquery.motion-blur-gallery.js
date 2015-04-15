@@ -161,6 +161,7 @@
 			setGalleryPos(0, false);
 
 			var $body = $('body');
+			$(self).addClass("motion-blur-gallery");
 
 			$body.keydown(function (e) {
 				if(e.which === 37) setGalleryPos(--currentImage);
