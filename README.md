@@ -54,4 +54,4 @@ Currently, this effect is only supported by *Google Chrome*.
 
 Plugin based on [this article](http://tympanus.net/codrops/?p=23824) by Lucas Bebber.
 
-Images in this demo courtesy of *Joshua Earle*, http://www.joshuaearlephotography.com.
+Images in this demo courtesy of *Joshua Earle*, [joshuaearlephotography.com](http://www.joshuaearlephotography.com).
