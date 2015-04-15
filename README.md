@@ -21,7 +21,7 @@ Currently, this effect is only supported by *Google Chrome*.
 
 1. Include `motion-blur-gallery.css`, `jQuery`, `tweenMax.min.js` (from the GreenSock animation library), & `jquery.motion-blur-gallery.js` in your project. These files are all included in this repository.
 
-2. Add your images to your page, nested inside an unordered list. For example:
+2. Add your images (or other markup) to your page, nested inside an unordered list. For example:
 
         <div class="motion-blur-gallery">
         	<ul>
@@ -58,6 +58,13 @@ You can, optionally, pass arguments to the plugin when it is instantiated. For e
         });
 
 This will instantiate a new motion-blur gallery, without the pagination bullets, centered on the second slide (instead of the first).
+
+
+# Notes
+
+You can nest any HTML inside the list items that you like (avoid fixed or absolute positioning).
+
+The only caveat is that this version of the gallery assumes each `<li>` (list item) is of uniform size and style.
 
 
 # Credits

@@ -1,6 +1,7 @@
 .motion-blur-gallery {
     overflow: hidden;
     position: relative;
+    visibility: hidden;
 }
 
 .motion-blur-gallery ul {
