@@ -3,11 +3,23 @@ A jQuery image gallery utilizing an SVG motion-blur transition
 
 # What does it do?
 
+jQuery Motion Blur Gallery is a simple carousel utilizing the motion blur effect.
+
+
+# What is *motion blur*?
+
+Motion blur is the apparent streaking of rapidly moving objects in a still image or a sequence of images such as a movie or animation. It results when the image being recorded changes during the recording of a single frame, either due to rapid movement or long exposure.
+
+
 # Demo
+
+http://kidgodzilla.github.io/jQuery-Motion-Blur-Gallery
+
 
 # Supported Browsers
 
 Currently, this effect is only supported by *Google Chrome*.
+
 
 # Usage
 
@@ -36,6 +48,7 @@ Currently, this effect is only supported by *Google Chrome*.
         		$('.motion-blur-gallery').motionBlurGallery();
         	});
         </script>
+
 
 # Credits
 
