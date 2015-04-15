@@ -173,6 +173,8 @@
 			if (displayPagination) {
 				$self.append('<div class="motion-blur-gallery-pagination"></div>');
 				for (var i = 0; i < itemCount; i++) $self.find('.motion-blur-gallery-pagination').append('<button class="motion-blur-gallery-pagination-dot"></button>');
+
+				$(self).find('.motion-blur-gallery-pagination button').first().addClass('selected');
 			}
 
 			$self.find("ul").css({

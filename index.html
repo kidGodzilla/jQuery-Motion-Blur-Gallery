@@ -2,10 +2,11 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Motion Blur Gallery</title>
+	<title>jQuery Motion Blur Gallery</title>
 	<link rel="stylesheet" type="text/css" href="css/gallery.css" />
 </head>
 <body>
+<!-- Begin jQuery-Motion-Blur-Gallery -->
 <div class="motion-blur-gallery">
 	<ul>
 		<li><img src="img/1.jpg" alt="img01"></li>
@@ -19,11 +20,20 @@
 		<li><img src="img/9.jpg" alt="img09"></li>
 	</ul>
 </div>
+<!-- End jQuery-Motion-Blur-Gallery -->
 
+<p class="text-center">Images by <a href="http://www.joshuaearlephotography.com">Joshua Earle</a></p>
+
+<!-- Any version of jQuery will do -->
 <script src="js/jquery.min.js"></script>
+
+<!-- Greensock TweenMax -->
 <script src="js/TweenMax.min.js"></script>
+
+<!-- jQuery-Motion-Blur-Gallery Plugin -->
 <script src="js/jquery.motion-blur-gallery.js"></script>
 
+<!-- jQuery-Motion-Blur-Gallery Example Usage -->
 <script>
 	$(document).ready(function () {
 		$('.motion-blur-gallery').motionBlurGallery();
