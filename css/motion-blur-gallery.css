@@ -2,6 +2,7 @@
     overflow: hidden;
     position: relative;
     visibility: hidden;
+    width: 100%;
 }
 
 .motion-blur-gallery ul {
@@ -12,6 +13,7 @@
     cursor: -webkit-grab;
     white-space: nowrap;
     -webkit-transform: translateZ(0);
+    width: 100%;
 }
 
 .motion-blur-gallery li {
@@ -19,6 +21,11 @@
     display: inline-block;
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
+    /*width: 100%;*/
+}
+
+.motion-blur-gallery img {
+    max-width: 100%;
 }
 
 .motion-blur-gallery-pagination {
