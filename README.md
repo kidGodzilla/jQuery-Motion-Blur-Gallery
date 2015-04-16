@@ -21,7 +21,7 @@ Currently, this effect is only supported by *Google Chrome*.
 
 # Usage
 
-1. Include `motion-blur-gallery.css`, `jQuery`, `tweenMax.min.js` (from the GreenSock animation library), & `jquery.motion-blur-gallery.js` in your project. These files are all included in this repository.
+1. Include `motion-blur-gallery.css`, `jquery`, `tweenMax.min.js` (from the GreenSock animation library, included), & `jquery.motion-blur-gallery.js` in your project. These files are all included in this repository for your convenience.
 
 2. Add your images (or other markup) to your page, nested inside an unordered list. For example:
 
