@@ -4,14 +4,14 @@ A jQuery image gallery utilizing an SVG motion-blur transition
 <img src="http://i.giflike.com/Law9dIC.gif">
 
 
-# What is *motion blur?*
-
-Motion blur is the apparent streaking of rapidly moving objects in a still image or a sequence of images such as a movie or animation. It results when the image being recorded changes during the recording of a single frame, either due to rapid movement or long exposure.
-
-
 # Demo
 
 http://kidgodzilla.github.io/jQuery-Motion-Blur-Gallery
+
+
+# What is *motion blur?*
+
+Motion blur is the apparent streaking of rapidly moving objects in a still image or a sequence of images such as a movie or animation. It results when the image being recorded changes during the recording of a single frame, either due to rapid movement or long exposure.
 
 
 # Supported Browsers
