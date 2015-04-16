@@ -16,7 +16,7 @@ Motion blur is the apparent streaking of rapidly moving objects in a still image
 
 # Supported Browsers
 
-Currently, this effect is only supported by *Google Chrome*.
+Currently, this effect is only supported by *Google Chrome*. However, it degrades gracefully on other browsers to perform similarly to most other carousels.
 
 
 # Usage
