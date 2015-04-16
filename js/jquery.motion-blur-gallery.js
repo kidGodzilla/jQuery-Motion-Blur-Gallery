@@ -22,6 +22,8 @@
 		var $self = $(self);
 		var $galleryPicture = $self.find("li");
 		var imageTotalWidth = $galleryPicture.outerWidth(true);
+		var imageInnerWidth = $galleryPicture.innerWidth();
+		var imageMargin = ~((imageTotalWidth - imageInnerWidth) / 2);
 		var itemCount = $galleryPicture.length;
 
 		var displayPagination = !args.hidePagination;
@@ -74,7 +76,7 @@
 
 		function updateGalleryPos () {
 			TweenMax.set($(".motion-blur-gallery ul"), {
-				x: galleryPos.x + (($(self).width() - imageTotalWidth) / 2),
+				x: galleryPos.x + (($(self).outerWidth(true) - imageTotalWidth) / 2),
 				force3D: true,
 				lazy: true
 			});
